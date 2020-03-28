@@ -1,6 +1,6 @@
 ## Swifty Algorithms
 
-Swift Algorithms is a repo designs to contain various programming questions that are answered in `Swift`. I made this repo because a lot of programming questions are answered in programming languages like C, C++, Java, or Python. As an iOS developer I really love `Swift` and I wanted to work on my programming skils during the Covid-19 quarantine.
+Swift Algorithms is a repo designs to contain various programming questions that are answered in `Swift`. I made this repo because a lot of programming questions are answered in programming languages like C, C++, Java, or Python. As an iOS developer I really love `Swift` and I wanted to work on my programming skils during the Covid-19 quarantine so here we are.
 
 
 ## How to Navigate this repo
@@ -12,7 +12,7 @@ Swift Algorithms is a repo designs to contain various programming questions that
 
 ## References:
 
-If you like this repo you might also be interested in:
+**If you like this repo you might also be interested in:**
 
 [swift-algorithm-club](https://github.com/raywenderlich/swift-algorithm-club)
 
@@ -23,7 +23,8 @@ If you like this repo you might also be interested in:
 [Apple Algorithms](https://github.com/apple/swift/blob/master/test/Prototypes/Algorithms.swift)
 
 
-If you're looking for more generic Interview information check out these:
+
+**If you're looking for more generic Interview information check out these:**
 
 [awesome-interview-questions](https://github.com/MaximAbramchuck/awesome-interview-questions)
 
