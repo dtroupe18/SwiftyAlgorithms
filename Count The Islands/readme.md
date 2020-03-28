@@ -60,5 +60,7 @@ In the first example all of the `1`'s are connect horizontally or vertically so 
 ## References:
 
 [Graph Theory](https://en.wikipedia.org/wiki/Component_(graph_theory))
+
 [Depth First Search](https://en.wikipedia.org/wiki/Depth-first_search)
+
 [Breadth First Search](https://en.wikipedia.org/wiki/Breadth-first_search)
