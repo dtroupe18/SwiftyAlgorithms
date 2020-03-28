@@ -56,6 +56,8 @@ Return the number of islands as a single integer.
 
 In the first example all of the `1`'s are connect horizontally or vertically so there is only `1` island. In the second example we have `3` islands because islands are not connected diagonally.
 
-References:
-[https://en.wikipedia.org/wiki/Component_(graph_theory)]
-[https://en.wikipedia.org/wiki/Depth-first_search]
+
+## References:
+
+https://en.wikipedia.org/wiki/Component_(graph_theory)
+https://en.wikipedia.org/wiki/Depth-first_search
