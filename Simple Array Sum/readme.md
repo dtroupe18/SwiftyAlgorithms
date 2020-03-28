@@ -4,7 +4,7 @@ For example, if the array `ar = [1, 2, 3], 1 + 2 + 3 = 6` so return `6`.
 
 ## Function Description
 
-Complete the simpleArraySum function in the editor below. It must return the sum of the array elements as an integer.
+Complete the simpleArraySum. It must return the sum of the array elements as an integer.
 
 simpleArraySum has the following parameter(s):
 
