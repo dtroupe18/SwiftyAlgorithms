@@ -14,13 +14,14 @@ Swift Algorithms is a repo designs to contain various programming questions that
 
 If you like this repo you might also be interested in:
 
-https://github.com/raywenderlich/swift-algorithm-club
-https://github.com/karan/Swift-Algorithms
-https://github.com/iCell/swift-algorithms
-https://github.com/apple/swift/blob/master/test/Prototypes/Algorithms.swift
+[swift-algorithm-club](https://github.com/raywenderlich/swift-algorithm-club)
+[Swift-Algorithms](https://github.com/karan/Swift-Algorithms)
+[swift-algorithms](https://github.com/iCell/swift-algorithms)
+[Apple Algorithms](https://github.com/apple/swift/blob/master/test/Prototypes/Algorithms.swift)
+
 
 If you're looking for more generic Interview information check out these:
 
-https://github.com/MaximAbramchuck/awesome-interview-questions
-https://github.com/yangshun/tech-interview-handbook
+[awesome-interview-questions](https://github.com/MaximAbramchuck/awesome-interview-questions)
+[tech-interview-handbook](https://github.com/yangshun/tech-interview-handbook)
 
