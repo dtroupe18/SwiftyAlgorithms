@@ -85,6 +85,11 @@ final class EqualCubeSumTests: XCTestCase {
 
    The trick here is to avoid repeating work. We should just create the list of
    (c, d) pairs once. Then use those pairs directly to find the solutions.
+
+   Also need notice that in order for a^3 + b^3 to equal c^3 + d^3
+   c^3 == a^3 || b^3 and d^3 = a^3 || b^3.
+
+   Ex: 3^3 + 4^3 = 4^3 + 3^3
    */
   func findSolutionsDictionary() -> [Solution] {
     // Conform to Hashable so we can use this as a dictionary key.
