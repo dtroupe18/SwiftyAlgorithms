@@ -18,9 +18,9 @@ With the cost of sorting included Binary Search of course performs the worst.
   - Linear Search (implemented by me) `0.732` seconds.
   - Linear Search (implemented by firstIndex(of:) `0.121`.
   
-  With the cost of sorting removed we get drastically different results.
-    Avg Times:
-    - Recursive Binary Search `0.001` seconds longest run `0.001198` seconds.
-    - Iterative Binary Search `0.000` seconds longest run `0.000469` seconds.
-    - Linear Search (implemented by me) `0.627` seconds.
-    - Linear Search (implemented by firstIndex(of:) `0.097`.
+With the cost of sorting removed we get drastically different results.
+  Avg Times:
+  - Recursive Binary Search `0.001` seconds longest run `0.001198` seconds.
+  - Iterative Binary Search `0.000` seconds longest run `0.000469` seconds.
+  - Linear Search (implemented by me) `0.627` seconds.
+  - Linear Search (implemented by firstIndex(of:) `0.097`.
