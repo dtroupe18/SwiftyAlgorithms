@@ -22,7 +22,7 @@ Swift Algorithms is a repo designs to contain various programming questions that
 
 [Apple Algorithms](https://github.com/apple/swift/blob/master/test/Prototypes/Algorithms.swift)
 
-[LeetCode](https://github.com/strengthen/LeetCode)
+[LeetCode Solutions](https://github.com/strengthen/LeetCode)
 
 
 
