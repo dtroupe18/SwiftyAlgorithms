@@ -35,6 +35,8 @@ final class EqualStackTests: XCTestCase {
    Time Complexity : O(n1 + n2 + n3).
    */
   func equalStacks(h1: [Int], h2: [Int], h3: [Int]) -> Int {
+    guard !h1.isEmpty && !h2.isEmpty && !h3.isEmpty else { return 0 }
+
     var height1 = h1.reduce(0, +)
     var height2 = h2.reduce(0, +)
     var height3 = h3.reduce(0, +)
