@@ -17,12 +17,9 @@ final class EqualStackTests: XCTestCase {
     TestCase(h1: [3, 10], h2: [4, 5], h3: [2, 1], solution: 0),
     TestCase(h1: [3, 2, 1, 1, 1], h2: [4, 3, 2], h3: [1, 1, 4, 1], solution: 5),
     TestCase(h1: [], h2: [], h3: [], solution: 0),
-    TestCase(h1: [10], h2: [10], h3: [10], solution: 10)
+    TestCase(h1: [10], h2: [10], h3: [10], solution: 10),
+    TestCase(h1: [1, 1, 1, 1], h2: [1, 1, 1, 1], h3: [1, 1], solution: 2)
   ]
-
-  private func sumArray(_ array: [Int]) -> Int {
-    return array.reduce(0, +)
-  }
 
   /**
    Returns the maximum height of stacks when they are equal.
@@ -38,9 +35,9 @@ final class EqualStackTests: XCTestCase {
    Time Complexity : O(n1 + n2 + n3).
    */
   func equalStacks(h1: [Int], h2: [Int], h3: [Int]) -> Int {
-    var height1 = sumArray(h1)
-    var height2 = sumArray(h2)
-    var height3 = sumArray(h3)
+    var height1 = h1.reduce(0, +)
+    var height2 = h2.reduce(0, +)
+    var height3 = h3.reduce(0, +)
 
     var heightsEqual: Bool = false
     var index1 = 0
@@ -48,11 +45,13 @@ final class EqualStackTests: XCTestCase {
     var index3 = 0
 
     while(!heightsEqual) {
-      if height1 > height2 && height1 > height3 {
+      // Needs to be or comparision because if two stacks have equal heights we will loop forever.
+      // Ex: h1: 7, h2: 7, h3: 5.
+      if height1 > height2 || height1 > height3 {
         height1 -= h1[index1]; index1 += 1
-      } else if height2 > height1 && height2 > height3 {
+      } else if height2 > height1 || height2 > height3 {
         height2 -= h2[index2]; index2 += 1
-      } else if height3 > height1 && height3 > height2 {
+      } else if height3 > height1 || height3 > height2 {
         height3 -= h3[index3]; index3 += 1
       } else {
         // They are all equal.
