@@ -13,9 +13,11 @@ we can hope for when sorting this will be the most efficient method.
 Algorithm Process:
   1. Initialize an array (largest) to store the k largest numbers in largest to smallest order.
   2. Insert the first element of the test array into this array (largest).
-  3. Loop over the remainder of the test array O(n).
+  3. Loop over the remainder of the test array `O(n)`.
   4. For each element we compare it starting at the end of largest (smallest largest value).
      If the current element is larger than the smallest largest element, keep going until we find
-     a value it's not greater than and insert it there. O(k).
+     a value it's not greater than and insert it there. `O(k)`.
 
-     Time Complexity: O(n*k) -> Faster than the above method if k < log(n).
+     Time Complexity: `O(n*k)`.
+     Faster than the above method if `k < log(n)`.
+     Turns into `O(n^2)` if `k = n`.
