@@ -104,7 +104,7 @@ final class MergeKSortedLists: XCTestCase {
     return head
   }
 
-  func testMergeKListsIterative() {
+  func testMergeKSortedLists() {
     let result = mergeKLists(makeLists())
     let solution = [1, 1, 2, 3, 4, 4, 5, 6]
 
