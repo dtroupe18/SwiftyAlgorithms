@@ -1,6 +1,6 @@
 ## Swifty Algorithms
 
-Swift Algorithms is a repo designs to contain various programming questions that are answered in `Swift`. I made this repo because a lot of programming questions are answered in programming languages like C, C++, Java, or Python. As an iOS developer I really love `Swift` and I wanted to work on my programming skils during the Covid-19 quarantine so here we are.
+Swift Algorithms is a repo designs to contain various programming questions that are answered in `Swift`. I made this repo because a lot of programming questions are answered in programming languages like C, C++, Java, or Python. As an iOS developer I really love `Swift` and I wanted to work on my programming and problem solving skills during the Covid-19 quarantine so here we are.
 
 
 ## How to Navigate this repo
