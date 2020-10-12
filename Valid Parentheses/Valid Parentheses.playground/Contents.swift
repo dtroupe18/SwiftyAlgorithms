@@ -77,6 +77,45 @@ final class ValidParenthesesTests: XCTestCase {
       )
     }
   }
+
+  /*
+   Runtime: 0 ms, faster than 100.00% of Swift online submissions for Valid Parentheses.
+   Memory Usage: 14.6 MB, less than 9.07% of Swift online submissions for Valid Parentheses.
+   */
+  func isValid(_ s: String) -> Bool {
+    var stack = Array<Character>()
+
+    // closed -> open
+    let parentheseDict: [Character: Character] = [
+      ")": "(",
+      "}": "{",
+      "]": "["
+    ]
+
+    let closing = parentheseDict.keys
+
+    for p in s {
+      if closing.contains(p) {
+        guard let opening = stack.popLast() else { return false } // closing without opening.
+        guard opening == parentheseDict[p] else { return false } // don't match.
+      } else {
+        stack.append(p)
+      }
+    }
+
+    return stack.isEmpty
+  }
+
+  func testIsValid() {
+    for (i, testCase) in testCases.enumerated() {
+      let result = isValid(testCase.testString)
+
+      XCTAssert(
+        result == testCase.solution,
+        "Expected \(testCase.solution), but got \(result) for test case \(i)"
+      )
+    }
+  }
 }
 
 ValidParenthesesTests.defaultTestSuite.run()
