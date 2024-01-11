@@ -3,7 +3,7 @@ Given two sorted arrays `nums1` and `nums2` of size `m` and `n` respectively, re
 
 Follow up: The overall run time complexity should be `O(log (m+n))`.
 
-[LINK](https://leetcode.com/problems/median-of-two-sorted-arrays/submissions/)
+[LINK](https://leetcode.com/problems/median-of-two-sorted-arrays/)
 
 
 ## Example 1:
